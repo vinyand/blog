@@ -1,4 +1,4 @@
-<img src="./index.jpg" alt="imagem">
+<img src="./index.jpeg" alt="imagem">
 # Começando com Create React App
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
