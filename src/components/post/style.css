@@ -1,0 +1,36 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+
+.post-image {
+    width: 40vw;
+    height: 19vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.post-image div::ntd-child(2){
+    max-width: 40vw;
+}
+
+.post-date {
+    font-size: 0.8rem;
+    color: #8f8e8e;
+}
+
+.post-title {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.post-description {
+    margin-top: 10px;
+
+}
+
+.navlink {
+    text-decoration: none;
+}

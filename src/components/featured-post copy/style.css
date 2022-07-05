@@ -1,0 +1,33 @@
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.post-image {
+    width: 40vw;
+    height: 50vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.link {
+    text-decoration: none;
+}
+
+.post-image div::ntd-child(2){
+    max-width: 45vw;
+}
+
+.post-date {
+    font-size: 0.8rem;
+    color: #8f8e8e;
+}
+
+.post-title {
+    margin-top: 40px;
+    font-weight: bold;
+}
+.post-description {
+    margin-top: 20px;
+
+}
